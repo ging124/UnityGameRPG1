@@ -1,0 +1,503 @@
+fileFormatVersion: 2
+guid: f8776c13536cc9a46a2ef8d58d4b52e4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WaterSword_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 102
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.3, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c2367ed3ffad44891fc259f2b0eb43
+      internalID: -948220974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 105
+        width: 40
+        height: 47
+      alignment: 9
+      pivot: {x: 0.72, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58195e4e275667498f15a1e3f1252c2
+      internalID: 2054300548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 105
+        width: 32
+        height: 40
+      alignment: 9
+      pivot: {x: 0.26, y: 0.19}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a98ed3c80198d1469abc82e175ecbdb
+      internalID: 1656160375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_6
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 99
+        width: 34
+        height: 37
+      alignment: 9
+      pivot: {x: 0.2657722, y: 0.20020644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab331bd83590d2540bf309aa14839b76
+      internalID: -1944708808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_8
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 98
+        width: 31
+        height: 54
+      alignment: 9
+      pivot: {x: 0.69849616, y: 0.12706855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5ba950412eb9048b895b82436aa521
+      internalID: 1515802736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_10
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 97
+        width: 34
+        height: 37
+      alignment: 9
+      pivot: {x: 0.7385676, y: 0.22030145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db80b2c0790b1004c9b7d72edeb5e743
+      internalID: -2002131377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_11
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 100
+        width: 26
+        height: 51
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31643bcb5f0b969478cd60fa01bad0ea
+      internalID: -860111895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_13
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 100
+        width: 31
+        height: 54
+      alignment: 9
+      pivot: {x: 0.3165815, y: 0.1315319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4306981dba12e2c45af216c60cc7229f
+      internalID: -1569456274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 42
+        width: 24
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c348d168f6adfe94d9d6b7f74c3dc61a
+      internalID: -1688585578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 42
+        width: 40
+        height: 47
+      alignment: 9
+      pivot: {x: 0.72, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532f118e8f66a0b4db9736d263011e7f
+      internalID: -1793766306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 52
+        width: 32
+        height: 38
+      alignment: 9
+      pivot: {x: 0.68355274, y: 0.18349898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e197a9ff9cbb75849bd85f3c9140204f
+      internalID: -871704341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 48
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.7502574, y: 0.19006369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304d53755f901cc4582acc5c5f7d2b14
+      internalID: 94139030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_20
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 53
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.58, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b735f6daf031f14fa37620852be4aa5
+      internalID: -932562875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_22
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 51
+        width: 34
+        height: 43
+      alignment: 9
+      pivot: {x: 0.3, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7af4ffa1345fc4589ab8dde6ba7beb
+      internalID: 869670849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_23
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 50
+        width: 38
+        height: 37
+      alignment: 9
+      pivot: {x: 0.23803389, y: 0.2080241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991e97873fc5acf4e802018b8732db2d
+      internalID: -1975379064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSword_25
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 54
+        width: 32
+        height: 38
+      alignment: 9
+      pivot: {x: 0.29557133, y: 0.1781562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfb22810cc4a0e4c9af5b8bd653d53f
+      internalID: 1843120429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WaterSword_0: -948220974
+      WaterSword_1: 2054300548
+      WaterSword_10: -2002131377
+      WaterSword_11: -860111895
+      WaterSword_12: 1932382409
+      WaterSword_13: -1569456274
+      WaterSword_14: -1688585578
+      WaterSword_15: -1793766306
+      WaterSword_16: -1882458431
+      WaterSword_17: -871704341
+      WaterSword_18: 580369010
+      WaterSword_19: 94139030
+      WaterSword_2: 604300946
+      WaterSword_20: -932562875
+      WaterSword_21: 178578075
+      WaterSword_22: 869670849
+      WaterSword_23: -1975379064
+      WaterSword_24: -260822880
+      WaterSword_25: 1843120429
+      WaterSword_26: -1941408480
+      WaterSword_3: -2046739475
+      WaterSword_4: 1656160375
+      WaterSword_5: 1324896939
+      WaterSword_6: -1944708808
+      WaterSword_7: 2140784183
+      WaterSword_8: 1515802736
+      WaterSword_9: -326439703
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

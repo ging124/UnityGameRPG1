@@ -1,0 +1,96 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "2d7a42a5-2d79-405a-998a-de06daa55745",
+            "actions": [
+                {
+                    "name": "ButtonMove",
+                    "type": "Button",
+                    "id": "50267523-af73-49d3-9a5f-c771d245c345",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ButtonSelect",
+                    "type": "Button",
+                    "id": "63887db5-fd35-4ff6-8d20-a245a78d147e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ButtonExit",
+                    "type": "Button",
+                    "id": "01483f39-0ab7-4501-96bc-748ed2d7884b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ebe5c687-0c00-43da-a9bb-f93cc9ba7efa",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ButtonSelect",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5325b55d-261f-4a9b-a5d7-c0125654d555",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ButtonExit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "62628a0c-095c-4ec8-aada-17192bc6462d",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ButtonMove",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "3f923258-8900-49b9-9f18-f4589ad09506",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ButtonMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "e0b47b2e-46c5-4e6d-a261-87a1113feebb",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ButtonMove",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

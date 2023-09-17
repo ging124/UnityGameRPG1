@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: 536a099973cfb5541b5e49968b9eddf1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShadowBlade 1_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 81
+        width: 20
+        height: 40
+      alignment: 9
+      pivot: {x: 0.42, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e0b115db2091f49898be5c2ab0f677
+      internalID: -707415002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 80
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.77, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3c0e4132f5dde459bc9ee85cc0ce8c
+      internalID: -656643957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 83
+        width: 31
+        height: 30
+      alignment: 9
+      pivot: {x: 0.65, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e72dbe85dfa10c4f9c2a0c29097b410
+      internalID: -1839112865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 78
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.6, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547181973fe422649923111d6eb4fd19
+      internalID: -790541359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 77
+        width: 20
+        height: 51
+      alignment: 9
+      pivot: {x: 0.6, y: 0.16}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2b21e5b0bd6eb4aa273820f0c54dd2
+      internalID: -1277697285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_7
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 77
+        width: 41
+        height: 37
+      alignment: 9
+      pivot: {x: 0.4, y: 0.233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719dbc06c0fb36645b6eef9daf10be9a
+      internalID: -1035876852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_8
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 79
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7846bf3c3e6c6c24bbd2345649d4742d
+      internalID: -1114253165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_10
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 84
+        width: 31
+        height: 30
+      alignment: 9
+      pivot: {x: 0.33, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bd24f03f479c4409200670468b1d31
+      internalID: -391519104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 14
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2b16678930e3e4b84785893a163400
+      internalID: 313122748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 17
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.77, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e2d24892c6dd14aad401c72a911b6f
+      internalID: -2030595525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_13
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 14
+        width: 37
+        height: 48
+      alignment: 9
+      pivot: {x: 0.71, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34aab514b424c5418599c835526b4a4
+      internalID: 1542401488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_14
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 14
+        width: 45
+        height: 48
+      alignment: 9
+      pivot: {x: 0.75, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d5b5ab993efab45bd75ca736d6432e
+      internalID: -1047010682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_16
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 10
+        width: 32
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b241fe06c24d09e4a91923405d172622
+      internalID: 147851468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_17
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 18
+        width: 40
+        height: 46
+      alignment: 9
+      pivot: {x: 0.4, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df49b55c592b2b34c939d8c5ad5521b7
+      internalID: -1062456550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_20
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 15
+        width: 45
+        height: 48
+      alignment: 9
+      pivot: {x: 0.23, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cc008dbcff1bf468ca5b9cd63e5856
+      internalID: -505966647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShadowBlade 1_21
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 15
+        width: 37
+        height: 48
+      alignment: 9
+      pivot: {x: 0.27, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fae3f1f1f8bbd41a843a5080399ad7
+      internalID: -589413626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ShadowBlade 1_0: -707415002
+      ShadowBlade 1_1: -656643957
+      ShadowBlade 1_10: -391519104
+      ShadowBlade 1_11: 313122748
+      ShadowBlade 1_12: -2030595525
+      ShadowBlade 1_13: 1542401488
+      ShadowBlade 1_14: -1047010682
+      ShadowBlade 1_15: -796997502
+      ShadowBlade 1_16: 147851468
+      ShadowBlade 1_17: -1062456550
+      ShadowBlade 1_18: -1676667806
+      ShadowBlade 1_19: 241786015
+      ShadowBlade 1_2: -1839112865
+      ShadowBlade 1_20: -505966647
+      ShadowBlade 1_21: -589413626
+      ShadowBlade 1_3: -790541359
+      ShadowBlade 1_4: 2105041150
+      ShadowBlade 1_5: -1277697285
+      ShadowBlade 1_6: -191081138
+      ShadowBlade 1_7: -1035876852
+      ShadowBlade 1_8: -1114253165
+      ShadowBlade 1_9: -1615667223
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

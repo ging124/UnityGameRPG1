@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - EnemyAttackPoint
+  - Item
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Character
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 4153002207
+    locked: 0
+  - name: Normal
+    uniqueID: 1680101365
+    locked: 0
+  - name: Hight
+    uniqueID: 3782224287
+    locked: 0
+  - name: Hight2
+    uniqueID: 398237819
+    locked: 0
+  - name: Hight3
+    uniqueID: 2314031573
+    locked: 0
+  - name: Hight4
+    uniqueID: 2244705569
+    locked: 0
+  - name: Hight5
+    uniqueID: 2141784771
+    locked: 0
