@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         GameManager.instance = this;
-        player = GameObject.Find("Character");
+        player = GameObject.Find("Player");
     }
 
     void Update()

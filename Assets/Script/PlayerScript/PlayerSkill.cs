@@ -50,7 +50,7 @@ public class PlayerSkill : MonoBehaviour
         shadowAttackRotation = waterAttackRotation;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (SkillPoint.instance.chooseFireSkill)
         {
@@ -82,7 +82,7 @@ public class PlayerSkill : MonoBehaviour
                 animator.SetTrigger("Skill");
                 animator.SetBool("ChooseWaterSkill", true);
                 Collider2D[] hitEnemy = Physics2D.OverlapCircleAll(waterAttackPoint.transform.position, waterSkillRange, enemyLayer);
-                if (animator.GetFloat("Horizontal") <= -1 && animator.GetFloat("Vertical") >= 1 || PlayerController.instance.playerMovement.movement.x <= -1 && PlayerController.instance.playerMovement.movement.y >= 1)
+                if (animator.GetFloat("Horizontal") <= -1 && animator.GetFloat("Vertical") >= 1 || PlayerController.instance.playerMovement._movement.x <= -1 && PlayerController.instance.playerMovement._movement.y >= 1)
                 {
                     waterAttackRotation = 225;
                 }
@@ -110,7 +110,7 @@ public class PlayerSkill : MonoBehaviour
                 animator.SetTrigger("Skill");
                 animator.SetBool("ChooseShadowSkill", true);
                 Collider2D[] hitEnemy = Physics2D.OverlapCircleAll(shadowAttackPoint.transform.position, shadowSkillRange, enemyLayer);
-                if (animator.GetFloat("Horizontal") <= -1 && animator.GetFloat("Vertical") >= 1 || PlayerController.instance.playerMovement.movement.x <= -1 && PlayerController.instance.playerMovement.movement.y >= 1)
+                if (animator.GetFloat("Horizontal") <= -1 && animator.GetFloat("Vertical") >= 1 || PlayerController.instance.playerMovement._movement.x <= -1 && PlayerController.instance.playerMovement._movement.y >= 1)
                 {
                     shadowAttackRotation = 225;
                 }

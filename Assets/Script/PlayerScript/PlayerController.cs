@@ -12,14 +12,22 @@ public class PlayerController : MonoBehaviour
     public PlayerStats playerStats;
     public PlayerHeal playerHeal;
 
+    public GameObject model;
+    public Animator animator;
+    public Rigidbody2D rb;
+
     void Awake()
     {
         PlayerController.instance = this;
-        playerMovement = GetComponent<PlayerMovement>();
-        playerAttack = GetComponent<PlayerAttack>();
-        playerHurt = GetComponent<PlayerHurt>();
-        playerLvUp = GetComponent<PlayerLvUp>();
-        playerStats = GetComponent<PlayerStats>();
-        playerHeal = GetComponent<PlayerHeal>();
+        playerMovement = GameObject.Find("PlayerMovement").GetComponent<PlayerMovement>();
+        playerAttack = GameObject.Find("PlayerAttack").GetComponent<PlayerAttack>();
+        playerHurt = GameObject.Find("PlayerHurt").GetComponent<PlayerHurt>();
+        playerLvUp = GameObject.Find("PlayerLevel").GetComponent<PlayerLvUp>();
+        playerStats = GameObject.Find("PlayerStats").GetComponent<PlayerStats>();
+        playerHeal = GameObject.Find("PlayerHeal").GetComponent<PlayerHeal>();
+
+        model = GameObject.Find("PlayerModel");
+        animator = model.GetComponent<Animator>();
+        rb = GetComponentInParent<Rigidbody2D>();
     }
 }

@@ -8,17 +8,16 @@ public class PlayerHurt : MonoBehaviour
     private Material matWhite;
     [SerializeField]
     private Material matDefault;
-    [SerializeField]
-    SpriteRenderer sr;
+    protected SpriteRenderer sr; 
 
     public PlayerDead playerDead;
 
     void Awake()
     {
-        playerDead = GetComponent<PlayerDead>();
-        currentHp = maxHp;
-        sr = GetComponent<SpriteRenderer>();
+        playerDead = GameObject.Find("PlayerDead").GetComponent<PlayerDead>();
+        sr = GameObject.Find("PlayerModel").GetComponent<SpriteRenderer>();
         matWhite = Resources.Load("WhiteFlash", typeof(Material)) as Material;
+        currentHp = maxHp;
         matDefault = sr.material;
     }
 
@@ -27,11 +26,12 @@ public class PlayerHurt : MonoBehaviour
     {
         currentHp -= damage;
         sr.material = matWhite;
-        Invoke("ResetMaterial", 0.2f);
         if (currentHp <= 0)
         {
+            ResetMaterial();
             playerDead.Dead();
         }
+        Invoke(nameof(ResetMaterial), 0.2f);
     }
 
     void ResetMaterial()

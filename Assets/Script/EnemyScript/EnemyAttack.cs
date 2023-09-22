@@ -16,7 +16,7 @@ public class EnemyAttack : MonoBehaviour
     private float lastAttackedAt = -9999f;
     public LayerMask playerLayer;
     public bool canAttack = true;
-
+    public Collider2D hitPlayer;
 
     void Awake()
     {
@@ -36,7 +36,7 @@ public class EnemyAttack : MonoBehaviour
     {
         if(canAttack)
         {
-            Collider2D hitPlayer = Physics2D.OverlapCircle(attackPoint.transform.position, attackRange, playerLayer);
+            hitPlayer = Physics2D.OverlapCircle(attackPoint.transform.position, attackRange, playerLayer);
             if (hitPlayer != null)
             {
                 animator.SetTrigger("Attack");

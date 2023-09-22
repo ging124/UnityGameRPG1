@@ -1,21 +1,14 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerDead : MonoBehaviour
 {
-    [SerializeField]
-    private Animator animator;
-
-    void Awake()
-    {
-        animator = GetComponent<Animator>();
-    }
-
     public void Dead()
     {
-        animator.SetTrigger("Dead");
+        PlayerController.instance.playerHurt.GetComponent<PlayerHurt>().enabled = false;
+        PlayerController.instance.playerMovement.GetComponent<PlayerMovement>().enabled = false;
         PlayerController.instance.playerAttack.canAttack = false;
-        GetComponent<PlayerMovement>().enabled = false;
-        GetComponent<Collider2D>().enabled = false;
-        Destroy(gameObject, 0.8f);
+        PlayerController.instance.animator.SetTrigger("Dead");
+        Destroy(transform.parent.gameObject, 1f);
     }
 }

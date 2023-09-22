@@ -19,7 +19,7 @@ public class FollowPlayer : MonoBehaviour
     void Awake()
     {
         animator = GetComponent<Animator>();
-        player = GameObject.Find("Character");
+        player = GameObject.FindWithTag("Player");
     }
 
     void FixedUpdate()

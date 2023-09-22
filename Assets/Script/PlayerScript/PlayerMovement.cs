@@ -2,18 +2,12 @@
 
 public class PlayerMovement : MonoBehaviour
 {
-    protected Animator animator;
-    protected Rigidbody2D rb;
     [SerializeField] protected float moveSpeed = 5f;
-    public Vector2 movement;
+    private Vector2 movement;
+    public Vector2 _movement { get => movement; }
     protected float moveLimit = 0.7f;
     public bool isMovement = true;
 
-    void Awake()
-    {
-        this.animator = gameObject.GetComponent<Animator>();
-        this.rb = gameObject.GetComponent<Rigidbody2D>();
-    }
 
     void Update()
     {
@@ -35,14 +29,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!this.isMovement) return;
 
-        this.animator.SetFloat("Speed", this.movement.sqrMagnitude);
+        PlayerController.instance.animator.SetFloat("Speed", this.movement.sqrMagnitude);
         if (this.movement != Vector2.zero)
         {
-            this.animator.SetFloat("Horizontal", this.movement.x);
-            this.animator.SetFloat("Vertical", this.movement.y);
+            PlayerController.instance.animator.SetFloat("Horizontal", this.movement.x);
+            PlayerController.instance.animator.SetFloat("Vertical", this.movement.y);
         }
         LimitMovement();
-        this.rb.MovePosition(this.rb.position + this.movement * this.moveSpeed * Time.fixedDeltaTime);
+        PlayerController.instance.rb.MovePosition(PlayerController.instance.rb.position + this.movement * this.moveSpeed * Time.fixedDeltaTime);
     }
 
     protected virtual void LimitMovement() //Hàm này sẽ giới hạn lại khi nhân vật đi chéo

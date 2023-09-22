@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    [SerializeField]
-    private Animator animator;
     public int attackDamage;
     [SerializeField]
     private float attackRange = 0.5f;
@@ -20,10 +18,6 @@ public class PlayerAttack : MonoBehaviour
     public LayerMask enemyLayer;
     public bool canAttack = true;
 
-    void Awake()
-    {
-        animator = gameObject.GetComponent<Animator>();
-    }
 
     void Update()
     {
@@ -41,7 +35,7 @@ public class PlayerAttack : MonoBehaviour
     {
         if(canAttack)
         {
-            animator.SetTrigger("Attack");
+            PlayerController.instance.animator.SetTrigger("Attack");
             SlashEffect();
             Collider2D[] hitEnemy = Physics2D.OverlapCircleAll(attackPoint.transform.position, attackRange, enemyLayer);
             foreach (Collider2D enemy in hitEnemy)
@@ -58,19 +52,19 @@ public class PlayerAttack : MonoBehaviour
 
     void SlashEffect()
     {
-        if (animator.GetFloat("Vertical") == -1)
+        if (PlayerController.instance.animator.GetFloat("Vertical") == -1)
         {
             Instantiate(slashEffectFront, transform.position, Quaternion.identity);
         }
-        else if (animator.GetFloat("Vertical") == 1)
+        else if (PlayerController.instance.animator.GetFloat("Vertical") == 1)
         {
             Instantiate(slashEffectBack, transform.position, Quaternion.identity);
         }
-        else if (animator.GetFloat("Horizontal") == -1)
+        else if (PlayerController.instance.animator.GetFloat("Horizontal") == -1)
         {
             Instantiate(slashEffectLeft, transform.position, Quaternion.identity);
         }
-        else if (animator.GetFloat("Horizontal") == 1)
+        else if (PlayerController.instance.animator.GetFloat("Horizontal") == 1)
         {
         }
 
